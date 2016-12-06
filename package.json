@@ -1,0 +1,19 @@
+{
+  "name": "the-commons",
+  "version": "1.0.0",
+  "description": "The Commons website",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Mark Gandy",
+  "license": "ISC",
+  "dependencies": {
+    "next": "1.2.3"
+  },
+  "devDependencies": {
+    "standard": "8.6.0"
+  }
+}
