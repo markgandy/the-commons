@@ -1,0 +1,219 @@
+exports[`test About page is active 1`] = `
+<div>
+  <nav
+    className="nav has-shadow">
+    <div
+      className="container">
+      <div
+        className="nav-left">
+        <a
+          className="nav-item is-tab"
+          href="/"
+          onClick={[Function]}>
+          Home
+        </a>
+        <a
+          className="nav-item is-tab is-active"
+          href="/about"
+          onClick={[Function]}>
+          About
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/bees"
+          onClick={[Function]}>
+          Bees
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/awards"
+          onClick={[Function]}>
+          Awards
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/photos"
+          onClick={[Function]}>
+          Photos
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`test Awards page is active 1`] = `
+<div>
+  <nav
+    className="nav has-shadow">
+    <div
+      className="container">
+      <div
+        className="nav-left">
+        <a
+          className="nav-item is-tab"
+          href="/"
+          onClick={[Function]}>
+          Home
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/about"
+          onClick={[Function]}>
+          About
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/bees"
+          onClick={[Function]}>
+          Bees
+        </a>
+        <a
+          className="nav-item is-tab is-active"
+          href="/awards"
+          onClick={[Function]}>
+          Awards
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/photos"
+          onClick={[Function]}>
+          Photos
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`test Bees page is active 1`] = `
+<div>
+  <nav
+    className="nav has-shadow">
+    <div
+      className="container">
+      <div
+        className="nav-left">
+        <a
+          className="nav-item is-tab"
+          href="/"
+          onClick={[Function]}>
+          Home
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/about"
+          onClick={[Function]}>
+          About
+        </a>
+        <a
+          className="nav-item is-tab is-active"
+          href="/bees"
+          onClick={[Function]}>
+          Bees
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/awards"
+          onClick={[Function]}>
+          Awards
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/photos"
+          onClick={[Function]}>
+          Photos
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`test Home page is active 1`] = `
+<div>
+  <nav
+    className="nav has-shadow">
+    <div
+      className="container">
+      <div
+        className="nav-left">
+        <a
+          className="nav-item is-tab is-active"
+          href="/"
+          onClick={[Function]}>
+          Home
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/about"
+          onClick={[Function]}>
+          About
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/bees"
+          onClick={[Function]}>
+          Bees
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/awards"
+          onClick={[Function]}>
+          Awards
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/photos"
+          onClick={[Function]}>
+          Photos
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`test Photos page is active 1`] = `
+<div>
+  <nav
+    className="nav has-shadow">
+    <div
+      className="container">
+      <div
+        className="nav-left">
+        <a
+          className="nav-item is-tab"
+          href="/"
+          onClick={[Function]}>
+          Home
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/about"
+          onClick={[Function]}>
+          About
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/bees"
+          onClick={[Function]}>
+          Bees
+        </a>
+        <a
+          className="nav-item is-tab"
+          href="/awards"
+          onClick={[Function]}>
+          Awards
+        </a>
+        <a
+          className="nav-item is-tab is-active"
+          href="/photos"
+          onClick={[Function]}>
+          Photos
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
