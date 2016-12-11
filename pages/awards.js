@@ -4,7 +4,7 @@ import defaultPage from '../hocs/defaultPage'
 const Index = () => (
   <div>
     <div>
-      Home Page
+      Awards
     </div>
   </div>
 )

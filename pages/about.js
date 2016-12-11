@@ -1,4 +1,11 @@
 import React from 'react'
-export default () => (
-  <div>About page</div>
+import defaultPage from '../hocs/defaultPage'
+
+const Index = () => (
+  <div>
+    <div>
+      About
+    </div>
+  </div>
 )
+export default defaultPage(Index)
