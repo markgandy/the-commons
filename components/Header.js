@@ -11,21 +11,29 @@ const links = [
 ]
 
 const Header = ({ currentUrl }) => (
-  <div>
-    <nav className='nav has-shadow'>
-      <div className='container'>
-        <div className='nav-left'>
-          {links.map(link => (
-            <Link href={link.href} key={link.href}>
-              <a className={classNames('nav-item', 'is-tab', { 'is-active': currentUrl === link.href })}>
-                {link.text}
-              </a>
-            </Link>
-          ))}
-        </div>
+  <section className='hero is-primary is-bold'>
+    <div className='hero-body'>
+      <div className='container is-fluid'>
+        <h1 className='title'>
+          The Commons
+        </h1>
+        <h2 className='subtitle'>
+        Sustainable city living
+        </h2>
+        <nav className='nav has-shadow'>
+          <div className='nav-left'>
+            {links.map(link => (
+              <Link href={link.href} key={link.href}>
+                <a className={classNames('nav-item', 'is-tab', { 'is-active': currentUrl === link.href })}>
+                  {link.text}
+                </a>
+              </Link>
+            ))}
+          </div>
+        </nav>
       </div>
-    </nav>
-  </div>
+    </div>
+  </section>
 )
 
 Header.propTypes = {

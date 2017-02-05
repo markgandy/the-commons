@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default Page => class DefaultPage extends React.Component {
   static getInitialProps (ctx) {
@@ -21,7 +22,14 @@ export default Page => class DefaultPage extends React.Component {
         </Head>
         <div>
           <Header {...this.props} />
-          <Page {...this.props} />
+          <section className='hero is-light'>
+            <div className='hero-body'>
+              <div className='container is-fluid'>
+                <Page {...this.props} />
+              </div>
+            </div>
+          </section>
+          <Footer />
         </div>
       </div>
     )

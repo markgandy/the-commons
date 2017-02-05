@@ -26,6 +26,9 @@
     "standard": "8.6.0"
   },
   "standard": {
-    "globals": [ "expect", "test" ]
+    "globals": [
+      "expect",
+      "test"
+    ]
   }
 }

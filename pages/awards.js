@@ -1,11 +1,11 @@
 import React from 'react'
 import defaultPage from '../hocs/defaultPage'
 
-const Index = () => (
+const Awards = () => (
   <div>
-    <div>
+    <h2 className='subtitle'>
       Awards
-    </div>
+    </h2>
   </div>
 )
-export default defaultPage(Index)
+export default defaultPage(Awards)
