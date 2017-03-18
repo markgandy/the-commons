@@ -8,7 +8,7 @@ const Bees = () => (
     </h2>
     <div className='box'>
       <figure className='image'>
-        <img src='http://thecommons.me/content/images/2015/02/bees.jpg' />
+        <img src='/static/bees.jpg' />
       </figure>
     </div>
   </div>

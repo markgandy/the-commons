@@ -4,13 +4,13 @@ import defaultPage from '../hocs/defaultPage'
 
 const images = [
   {
-    original: 'http://thecommons.me/content/images/2014/12/roof_south.jpg'
+    original: '/static/roof_south.jpg'
   },
   {
-    original: 'http://thecommons.me/content/images/2014/12/front_with_chains.jpg'
+    original: '/static/front_with_chains.jpg'
   },
   {
-    original: 'http://thecommons.me/content/images/2014/12/south_west_with_train.jpg'
+    original: '/static/south_west_with_train.jpg'
   }
 ]
 
