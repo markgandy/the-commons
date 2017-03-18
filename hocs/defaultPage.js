@@ -19,6 +19,7 @@ export default Page => class DefaultPage extends React.Component {
         <Head>
           <title>The Commons</title>
           <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css' />
+          <link rel='stylesheet' href='https://unpkg.com/react-image-gallery/styles/css/image-gallery.css' />
         </Head>
         <div>
           <Header {...this.props} />

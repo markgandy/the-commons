@@ -4,8 +4,13 @@ import defaultPage from '../hocs/defaultPage'
 const Bees = () => (
   <div>
     <h2 className='subtitle'>
-      Bees
+      We have some rooftop beehives! The bees are looked after by a few Commons' residents.
     </h2>
+    <div className='box'>
+      <figure className='image'>
+        <img src='http://thecommons.me/content/images/2015/02/bees.jpg' />
+      </figure>
+    </div>
   </div>
 )
 export default defaultPage(Bees)

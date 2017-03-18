@@ -7,7 +7,9 @@ const Index = () => (
       Welcome to The Commons - city apartment living done right
     </h2>
     <div className='box'>
-      <img src='http://thecommons.me/content/images/2014/12/front_with_train.jpg' />
+      <figure className='image'>
+        <img src='http://thecommons.me/content/images/2014/12/front_with_train.jpg' />
+      </figure>
     </div>
   </div>
 )
