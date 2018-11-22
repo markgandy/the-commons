@@ -3,6 +3,6 @@
 
 To run locally, just clone and run
 ```
-npm install
-npm run dev
+yarn install
+yarn run dev
 ```
